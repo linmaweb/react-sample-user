@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 90%;
+  }
+}

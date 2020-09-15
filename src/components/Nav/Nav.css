@@ -1,0 +1,47 @@
+.nav {
+  width: 100%;
+  display: flex;
+  color: #24292e;
+  border-bottom: 2px solid #0366d6;
+  margin-bottom: 15px;
+}
+
+.nav a {
+  padding: 10px 15px;
+  margin: 0 5px 0 0;
+  text-decoration: none;
+  display: block;
+  border-radius: 8px 8px 0 0;
+  font-size: 15px;
+  color: #0366d6;
+}
+
+.nav a.active,
+.nav a:hover {
+  background: #0366d6;
+  color: white;
+}
+
+.nav i {
+  margin-right: 8px;
+}
+
+.navWrapper {
+  width: 100%;
+  overflow: auto;
+  height: 680px;
+  max-height: 680px;
+}
+
+@media (max-width: 670px) {
+  .navWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navWrapper a {
+    max-width: 94%;
+    margin: 0 auto;
+  }
+}

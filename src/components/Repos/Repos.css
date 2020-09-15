@@ -1,0 +1,55 @@
+.reposWrapper {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+
+.reposWrapper:not(:last-of-type) {
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.reposWrapper .repos {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.reposWrapper .repos:hover {
+  background-color: #f6f8fa;
+}
+
+.reposWrapper .repos > p {
+  color: #0366d6;
+}
+
+.reposWrapper .repos i {
+  margin-right: 5px;
+}
+.reposWrapper .repos .repoInfo {
+  display: flex;
+  padding: 16px 0 0 0;
+}
+
+.reposWrapper .repos .repoInfo p {
+  color: #586069;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.reposWrapper .repos .repoInfo p.repoUpdated {
+  font-size: 12px;
+  font-style: italic;
+  color: #666;
+}
+
+.reposWrapper .repos .repoInfo p span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: yellow;
+  color: yellow;
+  margin-right: 8px;
+}

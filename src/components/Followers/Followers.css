@@ -1,0 +1,31 @@
+.followersWrapper {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.followersWrapper .followers {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.followersWrapper .followers:hover {
+  background-color: #f6f8fa;
+}
+
+.followersWrapper .followers img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 35px;
+}
+
+.followersWrapper .followers p {
+  font-size: 14px;
+  padding: 6px 0 0 0;
+  color: #0366d6;
+}
