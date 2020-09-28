@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { GithubContext } from "../../config";
+import Title from "../Title/Title";
 import Search from "../Search/Search";
 import User from "../Users/User";
 import Nav from "../Nav/Nav";
@@ -9,6 +10,7 @@ const Home = () => {
   const { user, error } = useContext(GithubContext);
   return (
     <section className="home">
+      <Title type="User Search" />
       <Search />
       <div className="container">
         {user ? (
