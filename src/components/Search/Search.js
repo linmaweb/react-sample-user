@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { GithubContext } from "../../config";
+import { GithubContext } from "../../context/GithubContext";
 import { useHistory } from "react-router-dom";
 import "./Search.css";
 

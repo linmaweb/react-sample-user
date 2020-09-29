@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { GithubContext } from "../../config";
+import { GithubContext } from "../../context/GithubContext";
 import "./User.css";
 
 const User = () => {
